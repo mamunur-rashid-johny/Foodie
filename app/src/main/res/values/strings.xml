@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <string name="singin">Sign In</string>
+    <string name="email">email</string>
+    <string name="pas">password</string>
+    <string name="notreg">Do Not Have a Account? Sign up here.</string>
+    <string name="signup">Sign Up</string>
+    <string name="reg">Already Registered? Sign in here.</string>
+    <string name="signout">Sign Out</string>
+    <string name="feed">Feedback</string>
+    <string name="name">Food Name</string>
+    <string name="price">Food Price</string>
+    <string name="c_name">Enter Name</string>
+    <string name="comts">Enter Your Feedback Here</string>
+    <string name="fedd">Leave Feedback</string>
+</resources>

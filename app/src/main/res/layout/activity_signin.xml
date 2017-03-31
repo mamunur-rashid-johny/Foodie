@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_gravity="center"
+       android:gravity="center">
+       <TextView
+           android:id="@+id/tv01"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/singin"
+           android:textAppearance="?android:textAppearanceLarge"
+           android:textColor="@color/text_color"/>
+       <EditText
+           android:id="@+id/ed_email"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:hint="@string/email"
+           android:inputType="textWebEmailAddress"/>
+       <EditText
+           android:id="@+id/ed_pass"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:hint="@string/pas"
+           android:inputType="textPassword"/>
+       <Button
+           android:id="@+id/btn_sign"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/singin"/>
+       <TextView
+           android:id="@+id/tv_notreg"
+           android:layout_marginTop="20dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/notreg"
+           android:textColor="@color/text_color"
+           android:textAppearance="?android:textAppearanceSmall"/>
+   </LinearLayout>
+
+</ScrollView>
