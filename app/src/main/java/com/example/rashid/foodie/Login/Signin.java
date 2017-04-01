@@ -56,8 +56,8 @@ public class Signin extends AppCompatActivity implements View.OnClickListener {
 
         switch (v.getId()){
             case R.id.btn_sign:
-                userlogin();
-                //startActivity(new Intent(this,FoodMenu.class));
+               // userlogin();
+                startActivity(new Intent(this,FoodMenu.class));
 
                 break;
             case R.id.tv_notreg:
