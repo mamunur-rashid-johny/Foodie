@@ -56,9 +56,7 @@ public class Signin extends AppCompatActivity implements View.OnClickListener {
 
         switch (v.getId()){
             case R.id.btn_sign:
-               // userlogin();
-                startActivity(new Intent(this,FoodMenu.class));
-
+               userlogin();
                 break;
             case R.id.tv_notreg:
 
@@ -95,7 +93,7 @@ public class Signin extends AppCompatActivity implements View.OnClickListener {
                         if (task.isSuccessful()){
                             progessdialog.dismiss();
                             finish();
-                            startActivity(new Intent(getBaseContext(), Menu.class));
+                            startActivity(new Intent(getBaseContext(), FoodMenu.class));
                         }
                         else {
                             Toast.makeText(getBaseContext(),"Error! Try Again..",Toast.LENGTH_SHORT).show();

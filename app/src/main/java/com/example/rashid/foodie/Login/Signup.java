@@ -98,7 +98,7 @@ public class Signup extends AppCompatActivity implements View.OnClickListener {
 
                     Toast.makeText(getBaseContext(),"Registarion is Successful.",Toast.LENGTH_SHORT).show();
                     finish();
-                    startActivity(new Intent(getBaseContext(),FoodMenu.class));
+                    startActivity(new Intent(getBaseContext(),Signin.class));
                 }
                 else {
                     Toast.makeText(getBaseContext(),"Registarion isn't Successful! Try again.",Toast.LENGTH_SHORT).show();
